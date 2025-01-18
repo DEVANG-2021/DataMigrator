@@ -53,5 +53,47 @@ This project is an automated and deployable ETL (Extract, Transform, Load) pipel
    cd DataMigrator
    ```
 2. Install dependencies:
-```bash
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Configure AWS and database credentials in the config.py file.
+4. Run the ETL pipeline:
+   ```bash
+   python main.py
+   ```
+---
+
+## **File Structure**
+DataMigrator/
+├── config.py                # Configuration for AWS, databases, and Kafka
+├── extract.py               # Extract data from SSMS/SQL databases
+├── transform.py             # Data transformation logic
+├── load.py                  # Load data into S3, Snowflake, and Redshift
+├── main.py                  # Main script to execute the pipeline
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
+
+---
+
+## **Key Results**
+- **End-to-End Automation:** Simplified and streamlined the data migration process.
+- **Scalability:** Capable of handling large datasets with high reliability.
+- **Performance Optimization:** Improved data ingestion and transfer speeds.
+
+---
+
+## **Future Enhancements**
+- Add support for other database platforms like PostgreSQL and MySQL.
+- Implement more advanced data validation and error-handling mechanisms.
+- Extend real-time capabilities with additional data streaming frameworks.
+
+---
+
+## **Contributing**
+Contributions are welcome! Feel free to submit issues or pull requests for enhancements or bug fixes.
+
+---
+
+## **Contact**
+For any inquiries or support, please reach out to Devang Parmar at parmardevang459@gmail.com.
 
