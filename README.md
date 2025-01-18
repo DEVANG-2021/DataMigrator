@@ -64,14 +64,14 @@ This project is an automated and deployable ETL (Extract, Transform, Load) pipel
 ---
 
 ## **File Structure**
-DataMigrator/
-├── config.py                # Configuration for AWS, databases, and Kafka
-├── extract.py               # Extract data from SSMS/SQL databases
-├── transform.py             # Data transformation logic
-├── load.py                  # Load data into S3, Snowflake, and Redshift
-├── main.py                  # Main script to execute the pipeline
-├── requirements.txt         # Python dependencies
-└── README.md                # Project documentation
+DataMigrator/  
+├── config.py                # Configuration for AWS, databases, and Kafka  
+├── extract.py               # Extract data from SSMS/SQL databases  
+├── transform.py             # Data transformation logic  
+├── load.py                  # Load data into S3, Snowflake, and Redshift  
+├── main.py                  # Main script to execute the pipeline  
+├── requirements.txt         # Python dependencies  
+└── README.md                # Project documentation  
 
 ---
 
